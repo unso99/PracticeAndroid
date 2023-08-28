@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="security_keyboard">보안 키패드</string>
+    <string name="certification_phone">휴대폰 인증</string>
+    <string name="input_done">입력 완료</string>
+    <string name="pin_number_input_notification">간편 비밀번호 6자리를 입력해주세요</string>
+    <string name="enter_yout_identity_verification_information">본인 확인을 위해 정보를 입력해주세요.</string>
+    <string name="confirm">입력 완료</string>
+    <string name="phone_number">휴대폰 번호</string>
+    <string name="telecome">통신사</string>
+    <string name="skt">SKT</string>
+    <string name="kt">KT</string>
+    <string name="lg">LG U+</string>
+    <string name="cheap_skt">SKT 알뜰폰</string>
+    <string name="cheap_kt">KT 알뜰폰</string>
+    <string name="cheap_lg">LG U+ 알뜰폰</string>
+    <string name="gender">성별</string>
+    <string name="male">남자</string>
+    <string name="female">여자</string>
+    <string name="birthday">생년월일</string>
+    <string name="name">이름</string>
+</resources>
