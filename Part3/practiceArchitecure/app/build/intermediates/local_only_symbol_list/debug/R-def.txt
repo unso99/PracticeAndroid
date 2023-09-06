@@ -9,6 +9,7 @@ id imageView
 id loadButton
 layout activity_main
 layout activity_mvc
+layout activity_mvp
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

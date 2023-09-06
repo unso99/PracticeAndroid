@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:2:1-29:12
+ADDED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:2:1-30:12
 MERGED from [androidx.databinding:databinding-adapters:8.1.0] C:\Users\samsung\.gradle\caches\transforms-3\347ba31e7286f5b82d0cce8d65a03b7b\transformed\databinding-adapters-8.1.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-ktx:8.1.0] C:\Users\samsung\.gradle\caches\transforms-3\50f15dccf3f89ccb4e926bd4f89c27a1\transformed\databinding-ktx-8.1.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-runtime:8.1.0] C:\Users\samsung\.gradle\caches\transforms-3\cb35fc3c11c4a020996c8395dd84dbcd\transformed\databinding-runtime-8.1.0\AndroidManifest.xml:2:1-7:12
@@ -69,8 +69,8 @@ ADDED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.
 	android:name
 		ADDED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:7:5-27:19
-INJECTED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:7:5-27:19
+ADDED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:7:5-28:19
+INJECTED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:7:5-28:19
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\samsung\.gradle\caches\transforms-3\676a4f33d6bbbcf95f2fe1bac76accc4\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\samsung\.gradle\caches\transforms-3\676a4f33d6bbbcf95f2fe1bac76accc4\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\samsung\.gradle\caches\transforms-3\dec4614628d7a9d2a5f1f5197247ace1\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -129,6 +129,10 @@ activity#com.example.fastcampus.part3.myapplication.mvc.controller.MvcActivity
 ADDED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:26:9-106
 	android:name
 		ADDED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:26:19-103
+activity#com.example.fastcampus.part3.myapplication.mvp.MvpActivity
+ADDED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:27:9-95
+	android:name
+		ADDED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:27:19-92
 uses-sdk
 INJECTED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml
