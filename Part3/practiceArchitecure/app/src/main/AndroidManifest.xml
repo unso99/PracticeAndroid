@@ -24,6 +24,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.fastcampus.part3.myapplication.mvc.controller.MvcActivity" />
+        <activity android:name="com.example.fastcampus.part3.myapplication.mvp.MvpActivity" />
     </application>
 
 </manifest>

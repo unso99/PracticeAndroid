@@ -3619,6 +3619,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
 layout activity_mvc
+layout activity_mvp
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

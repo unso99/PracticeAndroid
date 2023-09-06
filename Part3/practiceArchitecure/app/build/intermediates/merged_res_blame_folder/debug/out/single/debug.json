@@ -16,6 +16,10 @@
         "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.fastcampus.part3.myapplication.app-main-38:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "com.example.fastcampus.part3.myapplication.app-merged_res-36:/layout_activity_main.xml.flat",
+        "source": "com.example.fastcampus.part3.myapplication.app-main-38:/layout/activity_main.xml"
+    },
+    {
         "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.fastcampus.part3.myapplication.app-merged_res-36:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.fastcampus.part3.myapplication.app-main-38:\\xml\\backup_rules.xml"
     },
@@ -30,10 +34,6 @@
     {
         "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.fastcampus.part3.myapplication.app-merged_res-36:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.fastcampus.part3.myapplication.app-main-38:\\mipmap-xxxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.fastcampus.part3.myapplication.app-merged_res-36:/layout_activity_mvc.xml.flat",
-        "source": "com.example.fastcampus.part3.myapplication.app-main-38:/layout/activity_mvc.xml"
     },
     {
         "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.fastcampus.part3.myapplication.app-merged_res-36:\\mipmap-mdpi_ic_launcher_round.webp.flat",
@@ -54,6 +54,10 @@
     {
         "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.fastcampus.part3.myapplication.app-merged_res-36:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.fastcampus.part3.myapplication.app-main-38:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.fastcampus.part3.myapplication.app-merged_res-36:/layout_activity_mvp.xml.flat",
+        "source": "com.example.fastcampus.part3.myapplication.app-main-38:/layout/activity_mvp.xml"
     },
     {
         "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.fastcampus.part3.myapplication.app-merged_res-36:\\mipmap-xhdpi_ic_launcher.webp.flat",
