@@ -3,6 +3,7 @@ package com.example.fastcampus.part3.myapplication
 import com.google.gson.Gson
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
+import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
@@ -19,6 +20,8 @@ object RetrofitManager {
     private val retrofit = Retrofit.Builder()
         .baseUrl("https://api.unsplash.com/")
         .addConverterFactory(GsonConverterFactory.create(gson))
+        //rx를 사용하기위해
+        .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
         .client(okHttpClient)
         .build()
 

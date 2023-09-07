@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:2:1-30:12
+ADDED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:2:1-31:12
 MERGED from [androidx.databinding:databinding-adapters:8.1.0] C:\Users\samsung\.gradle\caches\transforms-3\347ba31e7286f5b82d0cce8d65a03b7b\transformed\databinding-adapters-8.1.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-ktx:8.1.0] C:\Users\samsung\.gradle\caches\transforms-3\50f15dccf3f89ccb4e926bd4f89c27a1\transformed\databinding-ktx-8.1.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-runtime:8.1.0] C:\Users\samsung\.gradle\caches\transforms-3\cb35fc3c11c4a020996c8395dd84dbcd\transformed\databinding-runtime-8.1.0\AndroidManifest.xml:2:1-7:12
@@ -15,10 +15,14 @@ MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\samsung\.gra
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\samsung\.gradle\caches\transforms-3\26c911d3cf93a7c0e4fcf2c49b0a758c\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\samsung\.gradle\caches\transforms-3\84813c30f5de0cb95363cde61dfd9e6b\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\samsung\.gradle\caches\transforms-3\c5fd6970c9ed1de37e837ecbdb8581d6\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.6.0] C:\Users\samsung\.gradle\caches\transforms-3\628319da6519f6ab6480311e2e48b9f8\transformed\activity-1.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.7.2] C:\Users\samsung\.gradle\caches\transforms-3\d6cf707972e83f5d5f2d8b0a33e5437d\transformed\activity-1.7.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.7.2] C:\Users\samsung\.gradle\caches\transforms-3\2a979ff0bb76d3825edb288a21953501\transformed\activity-ktx-1.7.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\samsung\.gradle\caches\transforms-3\f65fc4e33e9c6690c14e4fbae46679d5\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\samsung\.gradle\caches\transforms-3\a358d9e04063d7c1686922e24a16c693\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\samsung\.gradle\caches\transforms-3\0acf2367296c56de6b7f9adac4af54af\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\samsung\.gradle\caches\transforms-3\8bc26185f37c9c9bc828d40e0e3ad716\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] C:\Users\samsung\.gradle\caches\transforms-3\2bac26b5a2bd717b50b8ebfdf0e3efa9\transformed\lifecycle-livedata-core-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] C:\Users\samsung\.gradle\caches\transforms-3\40de453e9d5874d15330edf7e0f04eaa\transformed\lifecycle-viewmodel-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\samsung\.gradle\caches\transforms-3\498e4da602ed41a52b8dd0746f0aca3e\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\samsung\.gradle\caches\transforms-3\078e1f2c02e2adade0a28b9a034d8bbd\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\samsung\.gradle\caches\transforms-3\bc0411311db078d4531ec7b0237e62cf\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -39,7 +43,9 @@ MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\samsung\.gradle\
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\samsung\.gradle\caches\transforms-3\0b79f98f4a0926635c9332b2a1c3258a\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.9.0] C:\Users\samsung\.gradle\caches\transforms-3\3c11ddf1f1ffbda5ee4d54edb6c4ee68\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\samsung\.gradle\caches\transforms-3\c25faed1bfb6072ee48535331e221bcc\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.1] C:\Users\samsung\.gradle\caches\transforms-3\b6f5ebcb010e69bab2a4141050ebe83a\transformed\lifecycle-livedata-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] C:\Users\samsung\.gradle\caches\transforms-3\4c9e62c4b094acfef60a5e76e5e7203f\transformed\lifecycle-runtime-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\samsung\.gradle\caches\transforms-3\54d96f326369ffb2718e669c1de7edc9\transformed\rxandroid-2.1.1\AndroidManifest.xml:15:1-20:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\samsung\.gradle\caches\transforms-3\376e86810a3fae01001d0f6bf6f5200b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.databinding:viewbinding:8.1.0] C:\Users\samsung\.gradle\caches\transforms-3\8e5b2865015de6af66ed22a0b45f4b38\transformed\viewbinding-8.1.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\samsung\.gradle\caches\transforms-3\6cdefc14d9ed75997d852f8e982b677f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -47,8 +53,8 @@ MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\samsung\.gradle\caches\t
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\samsung\.gradle\caches\transforms-3\190eb7688c199b2268737600246f9282\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\samsung\.gradle\caches\transforms-3\bad35634c7ca9839e71625c3bd8774c2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\samsung\.gradle\caches\transforms-3\7d316aff347a934a4e76fb2f969ba283\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\samsung\.gradle\caches\transforms-3\311b067ff821a45ad6ffc13c056d682c\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\samsung\.gradle\caches\transforms-3\3c4c6708c1731a0fff6e708e9e9d362b\transformed\exifinterface-1.3.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\samsung\.gradle\caches\transforms-3\311b067ff821a45ad6ffc13c056d682c\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\samsung\.gradle\caches\transforms-3\94b4013a0eb4c694618bf12d07258755\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\samsung\.gradle\caches\transforms-3\7436de5fa26157cc5451836465d46ed6\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\samsung\.gradle\caches\transforms-3\2ff880b6ba8c243be400385c9b8ed895\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -69,8 +75,8 @@ ADDED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.
 	android:name
 		ADDED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:7:5-28:19
-INJECTED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:7:5-28:19
+ADDED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:7:5-29:19
+INJECTED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:7:5-29:19
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\samsung\.gradle\caches\transforms-3\676a4f33d6bbbcf95f2fe1bac76accc4\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\samsung\.gradle\caches\transforms-3\676a4f33d6bbbcf95f2fe1bac76accc4\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\samsung\.gradle\caches\transforms-3\dec4614628d7a9d2a5f1f5197247ace1\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -133,6 +139,10 @@ activity#com.example.fastcampus.part3.myapplication.mvp.MvpActivity
 ADDED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:27:9-95
 	android:name
 		ADDED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:27:19-92
+activity#com.example.fastcampus.part3.myapplication.mvvm.MvvmActivity
+ADDED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:28:9-97
+	android:name
+		ADDED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:28:19-94
 uses-sdk
 INJECTED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml
@@ -159,14 +169,22 @@ MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\samsung\.gradle\cach
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\samsung\.gradle\caches\transforms-3\84813c30f5de0cb95363cde61dfd9e6b\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\samsung\.gradle\caches\transforms-3\c5fd6970c9ed1de37e837ecbdb8581d6\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\samsung\.gradle\caches\transforms-3\c5fd6970c9ed1de37e837ecbdb8581d6\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.6.0] C:\Users\samsung\.gradle\caches\transforms-3\628319da6519f6ab6480311e2e48b9f8\transformed\activity-1.6.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.6.0] C:\Users\samsung\.gradle\caches\transforms-3\628319da6519f6ab6480311e2e48b9f8\transformed\activity-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.7.2] C:\Users\samsung\.gradle\caches\transforms-3\d6cf707972e83f5d5f2d8b0a33e5437d\transformed\activity-1.7.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.7.2] C:\Users\samsung\.gradle\caches\transforms-3\d6cf707972e83f5d5f2d8b0a33e5437d\transformed\activity-1.7.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.7.2] C:\Users\samsung\.gradle\caches\transforms-3\2a979ff0bb76d3825edb288a21953501\transformed\activity-ktx-1.7.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.7.2] C:\Users\samsung\.gradle\caches\transforms-3\2a979ff0bb76d3825edb288a21953501\transformed\activity-ktx-1.7.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\samsung\.gradle\caches\transforms-3\f65fc4e33e9c6690c14e4fbae46679d5\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\samsung\.gradle\caches\transforms-3\f65fc4e33e9c6690c14e4fbae46679d5\transformed\lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\samsung\.gradle\caches\transforms-3\a358d9e04063d7c1686922e24a16c693\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\samsung\.gradle\caches\transforms-3\a358d9e04063d7c1686922e24a16c693\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\samsung\.gradle\caches\transforms-3\0acf2367296c56de6b7f9adac4af54af\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\samsung\.gradle\caches\transforms-3\0acf2367296c56de6b7f9adac4af54af\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\samsung\.gradle\caches\transforms-3\8bc26185f37c9c9bc828d40e0e3ad716\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\samsung\.gradle\caches\transforms-3\8bc26185f37c9c9bc828d40e0e3ad716\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] C:\Users\samsung\.gradle\caches\transforms-3\2bac26b5a2bd717b50b8ebfdf0e3efa9\transformed\lifecycle-livedata-core-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] C:\Users\samsung\.gradle\caches\transforms-3\2bac26b5a2bd717b50b8ebfdf0e3efa9\transformed\lifecycle-livedata-core-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] C:\Users\samsung\.gradle\caches\transforms-3\40de453e9d5874d15330edf7e0f04eaa\transformed\lifecycle-viewmodel-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] C:\Users\samsung\.gradle\caches\transforms-3\40de453e9d5874d15330edf7e0f04eaa\transformed\lifecycle-viewmodel-ktx-2.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\samsung\.gradle\caches\transforms-3\498e4da602ed41a52b8dd0746f0aca3e\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\samsung\.gradle\caches\transforms-3\498e4da602ed41a52b8dd0746f0aca3e\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\samsung\.gradle\caches\transforms-3\078e1f2c02e2adade0a28b9a034d8bbd\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
@@ -207,8 +225,12 @@ MERGED from [androidx.core:core:1.9.0] C:\Users\samsung\.gradle\caches\transform
 MERGED from [androidx.core:core:1.9.0] C:\Users\samsung\.gradle\caches\transforms-3\3c11ddf1f1ffbda5ee4d54edb6c4ee68\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\samsung\.gradle\caches\transforms-3\c25faed1bfb6072ee48535331e221bcc\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\samsung\.gradle\caches\transforms-3\c25faed1bfb6072ee48535331e221bcc\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.1] C:\Users\samsung\.gradle\caches\transforms-3\b6f5ebcb010e69bab2a4141050ebe83a\transformed\lifecycle-livedata-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.1] C:\Users\samsung\.gradle\caches\transforms-3\b6f5ebcb010e69bab2a4141050ebe83a\transformed\lifecycle-livedata-ktx-2.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] C:\Users\samsung\.gradle\caches\transforms-3\4c9e62c4b094acfef60a5e76e5e7203f\transformed\lifecycle-runtime-ktx-2.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] C:\Users\samsung\.gradle\caches\transforms-3\4c9e62c4b094acfef60a5e76e5e7203f\transformed\lifecycle-runtime-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\samsung\.gradle\caches\transforms-3\54d96f326369ffb2718e669c1de7edc9\transformed\rxandroid-2.1.1\AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\samsung\.gradle\caches\transforms-3\54d96f326369ffb2718e669c1de7edc9\transformed\rxandroid-2.1.1\AndroidManifest.xml:18:5-43
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\samsung\.gradle\caches\transforms-3\376e86810a3fae01001d0f6bf6f5200b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\samsung\.gradle\caches\transforms-3\376e86810a3fae01001d0f6bf6f5200b\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.databinding:viewbinding:8.1.0] C:\Users\samsung\.gradle\caches\transforms-3\8e5b2865015de6af66ed22a0b45f4b38\transformed\viewbinding-8.1.0\AndroidManifest.xml:5:5-44
@@ -223,10 +245,10 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\samsung\
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\samsung\.gradle\caches\transforms-3\bad35634c7ca9839e71625c3bd8774c2\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\samsung\.gradle\caches\transforms-3\7d316aff347a934a4e76fb2f969ba283\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\samsung\.gradle\caches\transforms-3\7d316aff347a934a4e76fb2f969ba283\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\samsung\.gradle\caches\transforms-3\311b067ff821a45ad6ffc13c056d682c\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\samsung\.gradle\caches\transforms-3\311b067ff821a45ad6ffc13c056d682c\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\samsung\.gradle\caches\transforms-3\3c4c6708c1731a0fff6e708e9e9d362b\transformed\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.exifinterface:exifinterface:1.3.3] C:\Users\samsung\.gradle\caches\transforms-3\3c4c6708c1731a0fff6e708e9e9d362b\transformed\exifinterface-1.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\samsung\.gradle\caches\transforms-3\311b067ff821a45ad6ffc13c056d682c\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\samsung\.gradle\caches\transforms-3\311b067ff821a45ad6ffc13c056d682c\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\samsung\.gradle\caches\transforms-3\94b4013a0eb4c694618bf12d07258755\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\samsung\.gradle\caches\transforms-3\94b4013a0eb4c694618bf12d07258755\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\samsung\.gradle\caches\transforms-3\7436de5fa26157cc5451836465d46ed6\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44

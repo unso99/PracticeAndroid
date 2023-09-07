@@ -3352,6 +3352,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id report_drawn
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3620,6 +3621,7 @@ layout abc_tooltip
 layout activity_main
 layout activity_mvc
 layout activity_mvp
+layout activity_mvvm
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
