@@ -6,6 +6,7 @@ import android.os.Bundle
 import com.example.fastcampus.part3.myapplication.databinding.ActivityMainBinding
 import com.example.fastcampus.part3.myapplication.mvc.controller.MvcActivity
 import com.example.fastcampus.part3.myapplication.mvp.MvpActivity
+import com.example.fastcampus.part3.myapplication.mvvm.MvvmActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -23,5 +24,9 @@ class MainActivity : AppCompatActivity() {
 
     fun openMvp(){
         startActivity(Intent(this,MvpActivity::class.java))
+    }
+
+    fun openMvvm(){
+        startActivity(Intent(this,MvvmActivity::class.java))
     }
 }

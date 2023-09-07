@@ -1,18 +1,22 @@
 [
     {
-        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.fastcampus.part3.myapplication.app-mergeDebugResources-35:\\layout\\activity_mvc.xml",
-        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.fastcampus.part3.myapplication.app-main-38:\\layout\\activity_mvc.xml"
+        "merged": "com.example.fastcampus.part3.myapplication.app-mergeDebugResources-40:/layout/activity_main.xml",
+        "source": "com.example.fastcampus.part3.myapplication.app-main-43:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.fastcampus.part3.myapplication.app-mergeDebugResources-35:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.fastcampus.part3.myapplication.app-main-38:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.fastcampus.part3.myapplication.app-mergeDebugResources-40:\\layout\\activity_mvp.xml",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.fastcampus.part3.myapplication.app-main-43:\\layout\\activity_mvp.xml"
     },
     {
-        "merged": "com.example.fastcampus.part3.myapplication.app-mergeDebugResources-35:/layout/activity_mvp.xml",
-        "source": "com.example.fastcampus.part3.myapplication.app-main-38:/layout/activity_mvp.xml"
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.fastcampus.part3.myapplication.app-mergeDebugResources-40:\\layout\\activity_mvvm.xml",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.fastcampus.part3.myapplication.app-main-43:\\layout\\activity_mvvm.xml"
     },
     {
-        "merged": "com.example.fastcampus.part3.myapplication.app-mergeDebugResources-35:/layout/activity_main.xml",
-        "source": "com.example.fastcampus.part3.myapplication.app-main-38:/layout/activity_main.xml"
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.fastcampus.part3.myapplication.app-mergeDebugResources-40:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.fastcampus.part3.myapplication.app-main-43:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.fastcampus.part3.myapplication.app-mergeDebugResources-40:\\layout\\activity_mvc.xml",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.fastcampus.part3.myapplication.app-main-43:\\layout\\activity_mvc.xml"
     }
 ]

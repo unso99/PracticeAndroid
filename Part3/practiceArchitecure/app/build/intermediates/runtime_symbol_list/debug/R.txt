@@ -3351,6 +3351,7 @@ int id progress_horizontal 0x7f080159
 int id radio 0x7f08015a
 int id ratio 0x7f08015b
 int id rectangles 0x7f08015c
+int id report_drawn 0x7f0801f5
 int id reverseSawtooth 0x7f08015d
 int id right 0x7f08015e
 int id rightToLeft 0x7f08015f
@@ -3619,6 +3620,7 @@ int layout abc_tooltip 0x7f0b001b
 int layout activity_main 0x7f0b001c
 int layout activity_mvc 0x7f0b001d
 int layout activity_mvp 0x7f0b006b
+int layout activity_mvvm 0x7f0b006c
 int layout custom_dialog 0x7f0b001e
 int layout design_bottom_navigation_item 0x7f0b001f
 int layout design_bottom_sheet_dialog 0x7f0b0020
