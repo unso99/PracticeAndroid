@@ -41,6 +41,7 @@
         <activity android:name="com.example.fastcampus.part3.myapplication.mvc.controller.MvcActivity" />
         <activity android:name="com.example.fastcampus.part3.myapplication.mvp.MvpActivity" />
         <activity android:name="com.example.fastcampus.part3.myapplication.mvvm.MvvmActivity" />
+        <activity android:name="com.example.fastcampus.part3.myapplication.mvi.MviActivity" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

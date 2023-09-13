@@ -8,6 +8,7 @@ import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
 import com.example.fastcampus.part3.myapplication.databinding.ActivityMainBindingImpl;
 import com.example.fastcampus.part3.myapplication.databinding.ActivityMvcBindingImpl;
+import com.example.fastcampus.part3.myapplication.databinding.ActivityMviBindingImpl;
 import com.example.fastcampus.part3.myapplication.databinding.ActivityMvpBindingImpl;
 import com.example.fastcampus.part3.myapplication.databinding.ActivityMvvmBindingImpl;
 import java.lang.IllegalArgumentException;
@@ -25,15 +26,18 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   private static final int LAYOUT_ACTIVITYMVC = 2;
 
-  private static final int LAYOUT_ACTIVITYMVP = 3;
+  private static final int LAYOUT_ACTIVITYMVI = 3;
 
-  private static final int LAYOUT_ACTIVITYMVVM = 4;
+  private static final int LAYOUT_ACTIVITYMVP = 4;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(4);
+  private static final int LAYOUT_ACTIVITYMVVM = 5;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(5);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.fastcampus.part3.myapplication.R.layout.activity_main, LAYOUT_ACTIVITYMAIN);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.fastcampus.part3.myapplication.R.layout.activity_mvc, LAYOUT_ACTIVITYMVC);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.fastcampus.part3.myapplication.R.layout.activity_mvi, LAYOUT_ACTIVITYMVI);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.fastcampus.part3.myapplication.R.layout.activity_mvp, LAYOUT_ACTIVITYMVP);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.fastcampus.part3.myapplication.R.layout.activity_mvvm, LAYOUT_ACTIVITYMVVM);
   }
@@ -58,6 +62,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new ActivityMvcBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for activity_mvc is invalid. Received: " + tag);
+        }
+        case  LAYOUT_ACTIVITYMVI: {
+          if ("layout/activity_mvi_0".equals(tag)) {
+            return new ActivityMviBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for activity_mvi is invalid. Received: " + tag);
         }
         case  LAYOUT_ACTIVITYMVP: {
           if ("layout/activity_mvp_0".equals(tag)) {
@@ -126,11 +136,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(4);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(5);
 
     static {
       sKeys.put("layout/activity_main_0", com.example.fastcampus.part3.myapplication.R.layout.activity_main);
       sKeys.put("layout/activity_mvc_0", com.example.fastcampus.part3.myapplication.R.layout.activity_mvc);
+      sKeys.put("layout/activity_mvi_0", com.example.fastcampus.part3.myapplication.R.layout.activity_mvi);
       sKeys.put("layout/activity_mvp_0", com.example.fastcampus.part3.myapplication.R.layout.activity_mvp);
       sKeys.put("layout/activity_mvvm_0", com.example.fastcampus.part3.myapplication.R.layout.activity_mvvm);
     }

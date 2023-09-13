@@ -3347,6 +3347,7 @@ id pin
 id position
 id postLayout
 id pressed
+id progressView
 id progress_circular
 id progress_horizontal
 id radio
@@ -3620,6 +3621,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
 layout activity_mvc
+layout activity_mvi
 layout activity_mvp
 layout activity_mvvm
 layout custom_dialog

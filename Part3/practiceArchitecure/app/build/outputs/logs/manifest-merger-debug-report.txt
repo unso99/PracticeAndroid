@@ -1,16 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:2:1-31:12
+ADDED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:2:1-32:12
 MERGED from [androidx.databinding:databinding-adapters:8.1.0] C:\Users\samsung\.gradle\caches\transforms-3\347ba31e7286f5b82d0cce8d65a03b7b\transformed\databinding-adapters-8.1.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-ktx:8.1.0] C:\Users\samsung\.gradle\caches\transforms-3\50f15dccf3f89ccb4e926bd4f89c27a1\transformed\databinding-ktx-8.1.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-runtime:8.1.0] C:\Users\samsung\.gradle\caches\transforms-3\cb35fc3c11c4a020996c8395dd84dbcd\transformed\databinding-runtime-8.1.0\AndroidManifest.xml:2:1-7:12
-MERGED from [io.coil-kt:coil:2.2.2] C:\Users\samsung\.gradle\caches\transforms-3\fb955d457cf8023ef4b4cdc53e5d4af2\transformed\coil-2.2.2\AndroidManifest.xml:2:1-9:12
-MERGED from [io.coil-kt:coil-base:2.2.2] C:\Users\samsung\.gradle\caches\transforms-3\50d744a71fd8591d88c73e4c690e36a9\transformed\coil-base-2.2.2\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\samsung\.gradle\caches\transforms-3\676a4f33d6bbbcf95f2fe1bac76accc4\transformed\material-1.9.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\samsung\.gradle\caches\transforms-3\dec4614628d7a9d2a5f1f5197247ace1\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [io.coil-kt:coil:2.2.2] C:\Users\samsung\.gradle\caches\transforms-3\fb955d457cf8023ef4b4cdc53e5d4af2\transformed\coil-2.2.2\AndroidManifest.xml:2:1-9:12
+MERGED from [io.coil-kt:coil-base:2.2.2] C:\Users\samsung\.gradle\caches\transforms-3\50d744a71fd8591d88c73e4c690e36a9\transformed\coil-base-2.2.2\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\samsung\.gradle\caches\transforms-3\6843dd0d9ae138e903a6219db7755abb\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\samsung\.gradle\caches\transforms-3\26c911d3cf93a7c0e4fcf2c49b0a758c\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\samsung\.gradle\caches\transforms-3\84813c30f5de0cb95363cde61dfd9e6b\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -75,8 +75,8 @@ ADDED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.
 	android:name
 		ADDED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:7:5-29:19
-INJECTED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:7:5-29:19
+ADDED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:7:5-30:19
+INJECTED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:7:5-30:19
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\samsung\.gradle\caches\transforms-3\676a4f33d6bbbcf95f2fe1bac76accc4\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\samsung\.gradle\caches\transforms-3\676a4f33d6bbbcf95f2fe1bac76accc4\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\samsung\.gradle\caches\transforms-3\dec4614628d7a9d2a5f1f5197247ace1\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -143,6 +143,10 @@ activity#com.example.fastcampus.part3.myapplication.mvvm.MvvmActivity
 ADDED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:28:9-97
 	android:name
 		ADDED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:28:19-94
+activity#com.example.fastcampus.part3.myapplication.mvi.MviActivity
+ADDED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:29:9-95
+	android:name
+		ADDED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml:29:19-92
 uses-sdk
 INJECTED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\fastcampus\Part3\practiceArchitecure\app\src\main\AndroidManifest.xml
@@ -153,14 +157,14 @@ MERGED from [androidx.databinding:databinding-ktx:8.1.0] C:\Users\samsung\.gradl
 MERGED from [androidx.databinding:databinding-ktx:8.1.0] C:\Users\samsung\.gradle\caches\transforms-3\50f15dccf3f89ccb4e926bd4f89c27a1\transformed\databinding-ktx-8.1.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:databinding-runtime:8.1.0] C:\Users\samsung\.gradle\caches\transforms-3\cb35fc3c11c4a020996c8395dd84dbcd\transformed\databinding-runtime-8.1.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:databinding-runtime:8.1.0] C:\Users\samsung\.gradle\caches\transforms-3\cb35fc3c11c4a020996c8395dd84dbcd\transformed\databinding-runtime-8.1.0\AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt:coil:2.2.2] C:\Users\samsung\.gradle\caches\transforms-3\fb955d457cf8023ef4b4cdc53e5d4af2\transformed\coil-2.2.2\AndroidManifest.xml:5:5-7:41
-MERGED from [io.coil-kt:coil:2.2.2] C:\Users\samsung\.gradle\caches\transforms-3\fb955d457cf8023ef4b4cdc53e5d4af2\transformed\coil-2.2.2\AndroidManifest.xml:5:5-7:41
-MERGED from [io.coil-kt:coil-base:2.2.2] C:\Users\samsung\.gradle\caches\transforms-3\50d744a71fd8591d88c73e4c690e36a9\transformed\coil-base-2.2.2\AndroidManifest.xml:5:5-7:41
-MERGED from [io.coil-kt:coil-base:2.2.2] C:\Users\samsung\.gradle\caches\transforms-3\50d744a71fd8591d88c73e4c690e36a9\transformed\coil-base-2.2.2\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\samsung\.gradle\caches\transforms-3\676a4f33d6bbbcf95f2fe1bac76accc4\transformed\material-1.9.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\samsung\.gradle\caches\transforms-3\676a4f33d6bbbcf95f2fe1bac76accc4\transformed\material-1.9.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\samsung\.gradle\caches\transforms-3\dec4614628d7a9d2a5f1f5197247ace1\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\samsung\.gradle\caches\transforms-3\dec4614628d7a9d2a5f1f5197247ace1\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil:2.2.2] C:\Users\samsung\.gradle\caches\transforms-3\fb955d457cf8023ef4b4cdc53e5d4af2\transformed\coil-2.2.2\AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil:2.2.2] C:\Users\samsung\.gradle\caches\transforms-3\fb955d457cf8023ef4b4cdc53e5d4af2\transformed\coil-2.2.2\AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-base:2.2.2] C:\Users\samsung\.gradle\caches\transforms-3\50d744a71fd8591d88c73e4c690e36a9\transformed\coil-base-2.2.2\AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-base:2.2.2] C:\Users\samsung\.gradle\caches\transforms-3\50d744a71fd8591d88c73e4c690e36a9\transformed\coil-base-2.2.2\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\samsung\.gradle\caches\transforms-3\6843dd0d9ae138e903a6219db7755abb\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\samsung\.gradle\caches\transforms-3\6843dd0d9ae138e903a6219db7755abb\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\samsung\.gradle\caches\transforms-3\26c911d3cf93a7c0e4fcf2c49b0a758c\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
