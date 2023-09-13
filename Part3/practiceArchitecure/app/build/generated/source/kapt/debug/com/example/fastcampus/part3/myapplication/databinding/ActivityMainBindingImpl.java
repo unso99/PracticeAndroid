@@ -24,9 +24,13 @@ public class ActivityMainBindingImpl extends ActivityMainBinding implements com.
     private final android.widget.Button mboundView2;
     @NonNull
     private final android.widget.Button mboundView3;
+    @NonNull
+    private final android.widget.Button mboundView4;
     // variables
     @Nullable
     private final android.view.View.OnClickListener mCallback3;
+    @Nullable
+    private final android.view.View.OnClickListener mCallback4;
     @Nullable
     private final android.view.View.OnClickListener mCallback1;
     @Nullable
@@ -36,7 +40,7 @@ public class ActivityMainBindingImpl extends ActivityMainBinding implements com.
     // Inverse Binding Event Handlers
 
     public ActivityMainBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 4, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 5, sIncludes, sViewsWithIds));
     }
     private ActivityMainBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
@@ -49,9 +53,12 @@ public class ActivityMainBindingImpl extends ActivityMainBinding implements com.
         this.mboundView2.setTag(null);
         this.mboundView3 = (android.widget.Button) bindings[3];
         this.mboundView3.setTag(null);
+        this.mboundView4 = (android.widget.Button) bindings[4];
+        this.mboundView4.setTag(null);
         setRootTag(root);
         // listeners
         mCallback3 = new com.example.fastcampus.part3.myapplication.generated.callback.OnClickListener(this, 3);
+        mCallback4 = new com.example.fastcampus.part3.myapplication.generated.callback.OnClickListener(this, 4);
         mCallback1 = new com.example.fastcampus.part3.myapplication.generated.callback.OnClickListener(this, 1);
         mCallback2 = new com.example.fastcampus.part3.myapplication.generated.callback.OnClickListener(this, 2);
         invalidateAll();
@@ -118,6 +125,7 @@ public class ActivityMainBindingImpl extends ActivityMainBinding implements com.
             this.mboundView1.setOnClickListener(mCallback1);
             this.mboundView2.setOnClickListener(mCallback2);
             this.mboundView3.setOnClickListener(mCallback3);
+            this.mboundView4.setOnClickListener(mCallback4);
         }
     }
     // Listener Stub Implementations
@@ -138,6 +146,23 @@ public class ActivityMainBindingImpl extends ActivityMainBinding implements com.
 
 
                     view.openMvvm();
+                }
+                break;
+            }
+            case 4: {
+                // localize variables for thread safety
+                // view
+                com.example.fastcampus.part3.myapplication.MainActivity view = mView;
+                // view != null
+                boolean viewJavaLangObjectNull = false;
+
+
+
+                viewJavaLangObjectNull = (view) != (null);
+                if (viewJavaLangObjectNull) {
+
+
+                    view.openMvi();
                 }
                 break;
             }

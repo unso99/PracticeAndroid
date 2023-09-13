@@ -20,7 +20,7 @@ public class ActivityMvvmBindingImpl extends ActivityMvvmBinding implements com.
     private final androidx.constraintlayout.widget.ConstraintLayout mboundView0;
     // variables
     @Nullable
-    private final android.view.View.OnClickListener mCallback6;
+    private final android.view.View.OnClickListener mCallback7;
     // values
     // listeners
     // Inverse Binding Event Handlers
@@ -41,7 +41,7 @@ public class ActivityMvvmBindingImpl extends ActivityMvvmBinding implements com.
         this.mboundView0.setTag(null);
         setRootTag(root);
         // listeners
-        mCallback6 = new com.example.fastcampus.part3.myapplication.generated.callback.OnClickListener(this, 1);
+        mCallback7 = new com.example.fastcampus.part3.myapplication.generated.callback.OnClickListener(this, 1);
         invalidateAll();
     }
 
@@ -184,7 +184,7 @@ public class ActivityMvvmBindingImpl extends ActivityMvvmBinding implements com.
         if ((dirtyFlags & 0x10L) != 0) {
             // api target 1
 
-            this.loadButton.setOnClickListener(mCallback6);
+            this.loadButton.setOnClickListener(mCallback7);
         }
     }
     // Listener Stub Implementations

@@ -7,8 +7,10 @@ drawable ic_launcher_foreground
 id imageCountTextView
 id imageView
 id loadButton
+id progressView
 layout activity_main
 layout activity_mvc
+layout activity_mvi
 layout activity_mvp
 layout activity_mvvm
 mipmap ic_launcher
