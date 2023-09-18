@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-merged_res-41:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.practicemvvm.app-merged_res-41:/layout_item_image.xml.flat",
+        "source": "com.practicemvvm.app-main-43:/layout/item_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-merged_res-41:\\drawable_baseline_search_24.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\drawable\\baseline_search_24.xml"
+    },
+    {
+        "merged": "com.practicemvvm.app-merged_res-41:/drawable_baseline_play_circle_24.xml.flat",
+        "source": "com.practicemvvm.app-main-43:/drawable/baseline_play_circle_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-merged_res-41:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\mipmap-anydpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-merged_res-41:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-merged_res-41:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-merged_res-41:\\layout_fragment_favorites.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\layout\\fragment_favorites.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-merged_res-41:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-merged_res-41:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-merged_res-41:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-merged_res-41:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-merged_res-41:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.practicemvvm.app-merged_res-41:/layout_item_video.xml.flat",
+        "source": "com.practicemvvm.app-main-43:/layout/item_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-merged_res-41:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\mipmap-anydpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-merged_res-41:\\menu_options_menu.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\menu\\options_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-merged_res-41:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-merged_res-41:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-merged_res-41:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-merged_res-41:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-merged_res-41:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.practicemvvm.app-merged_res-41:/drawable_baseline_favorite_24.xml.flat",
+        "source": "com.practicemvvm.app-main-43:/drawable/baseline_favorite_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-merged_res-41:\\layout_fragment_search.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\layout\\fragment_search.xml"
+    },
+    {
+        "merged": "com.practicemvvm.app-merged_res-41:/drawable_baseline_favorite_border_24.xml.flat",
+        "source": "com.practicemvvm.app-main-43:/drawable/baseline_favorite_border_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-merged_res-41:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-merged_res-41:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\drawable\\ic_launcher_background.xml"
+    }
+]
