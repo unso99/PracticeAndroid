@@ -12,6 +12,7 @@ import androidx.databinding.Bindable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
 import com.practicemvvm.R;
+import com.practicemvvm.list.ItemHandler;
 import com.practicemvvm.model.VideoItem;
 import java.lang.Deprecated;
 import java.lang.Object;
@@ -38,6 +39,9 @@ public abstract class ItemVideoBinding extends ViewDataBinding {
   @Bindable
   protected VideoItem mItem;
 
+  @Bindable
+  protected ItemHandler mHandler;
+
   protected ItemVideoBinding(Object _bindingComponent, View _root, int _localFieldCount,
       AppCompatTextView authorTextView, AppCompatTextView dateTextView,
       AppCompatImageView favoriteImageView, AppCompatTextView playTimeTextView,
@@ -56,6 +60,13 @@ public abstract class ItemVideoBinding extends ViewDataBinding {
   @Nullable
   public VideoItem getItem() {
     return mItem;
+  }
+
+  public abstract void setHandler(@Nullable ItemHandler handler);
+
+  @Nullable
+  public ItemHandler getHandler() {
+    return mHandler;
   }
 
   @NonNull

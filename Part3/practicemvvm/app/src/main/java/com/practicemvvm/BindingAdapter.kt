@@ -10,7 +10,7 @@ import java.text.SimpleDateFormat
 import java.util.Date
 
 @BindingAdapter("image")
-fun ImageView.setImage(imageUrl: String) {
+fun ImageView.setImage(imageUrl: String?) {
     load(imageUrl) {
         crossfade(300)
     }

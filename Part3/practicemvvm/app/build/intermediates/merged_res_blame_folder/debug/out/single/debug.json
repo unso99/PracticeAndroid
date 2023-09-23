@@ -12,10 +12,6 @@
         "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\drawable\\baseline_search_24.xml"
     },
     {
-        "merged": "com.practicemvvm.app-merged_res-41:/drawable_baseline_play_circle_24.xml.flat",
-        "source": "com.practicemvvm.app-main-43:/drawable/baseline_play_circle_24.xml"
-    },
-    {
         "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-merged_res-41:\\mipmap-anydpi_ic_launcher.xml.flat",
         "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\mipmap-anydpi\\ic_launcher.xml"
     },
@@ -38,6 +34,14 @@
     {
         "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-merged_res-41:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-merged_res-41:\\layout_item_video.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\layout\\item_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-merged_res-41:\\drawable_baseline_favorite_border_24.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\drawable\\baseline_favorite_border_24.xml"
     },
     {
         "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-merged_res-41:\\xml_data_extraction_rules.xml.flat",
@@ -84,16 +88,16 @@
         "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.practicemvvm.app-merged_res-41:/drawable_baseline_favorite_24.xml.flat",
-        "source": "com.practicemvvm.app-main-43:/drawable/baseline_favorite_24.xml"
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-merged_res-41:\\drawable_baseline_play_circle_24.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\drawable\\baseline_play_circle_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-merged_res-41:\\drawable_baseline_favorite_24.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\drawable\\baseline_favorite_24.xml"
     },
     {
         "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-merged_res-41:\\layout_fragment_search.xml.flat",
         "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\layout\\fragment_search.xml"
-    },
-    {
-        "merged": "com.practicemvvm.app-merged_res-41:/drawable_baseline_favorite_border_24.xml.flat",
-        "source": "com.practicemvvm.app-main-43:/drawable/baseline_favorite_border_24.xml"
     },
     {
         "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-merged_res-41:\\drawable_ic_launcher_foreground.xml.flat",
@@ -102,5 +106,9 @@
     {
         "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-merged_res-41:\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-merged_res-41:\\layout_item_image.xml.flat",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\layout\\item_image.xml"
     }
 ]

@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-mergeDebugResources-40:\\layout\\item_image.xml",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\layout\\item_image.xml"
+    },
+    {
         "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-mergeDebugResources-40:\\layout\\activity_main.xml",
         "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\layout\\activity_main.xml"
     },
@@ -10,6 +14,10 @@
     {
         "merged": "com.practicemvvm.app-mergeDebugResources-40:/layout/item_video.xml",
         "source": "com.practicemvvm.app-main-43:/layout/item_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-mergeDebugResources-40:\\layout\\item_video.xml",
+        "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-main-43:\\layout\\item_video.xml"
     },
     {
         "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.practicemvvm.app-mergeDebugResources-40:\\layout\\fragment_favorites.xml",
