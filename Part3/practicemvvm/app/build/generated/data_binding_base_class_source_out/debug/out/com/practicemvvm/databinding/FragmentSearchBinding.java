@@ -8,10 +8,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatTextView;
 import androidx.core.widget.ContentLoadingProgressBar;
+import androidx.databinding.Bindable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
 import androidx.recyclerview.widget.RecyclerView;
 import com.practicemvvm.R;
+import com.practicemvvm.SearchViewModel;
 import java.lang.Deprecated;
 import java.lang.Object;
 
@@ -25,6 +27,9 @@ public abstract class FragmentSearchBinding extends ViewDataBinding {
   @NonNull
   public final RecyclerView recyclerView;
 
+  @Bindable
+  protected SearchViewModel mViewModel;
+
   protected FragmentSearchBinding(Object _bindingComponent, View _root, int _localFieldCount,
       AppCompatTextView emptyTextView, ContentLoadingProgressBar progressBar,
       RecyclerView recyclerView) {
@@ -32,6 +37,13 @@ public abstract class FragmentSearchBinding extends ViewDataBinding {
     this.emptyTextView = emptyTextView;
     this.progressBar = progressBar;
     this.recyclerView = recyclerView;
+  }
+
+  public abstract void setViewModel(@Nullable SearchViewModel viewModel);
+
+  @Nullable
+  public SearchViewModel getViewModel() {
+    return mViewModel;
   }
 
   @NonNull

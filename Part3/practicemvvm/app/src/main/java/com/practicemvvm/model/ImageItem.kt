@@ -8,7 +8,7 @@ data class ImageListResponse(
 )
 
 data class ImageItem(
-    @SerializedName("thumnail_url") override val thumbnailUrl: String,
+    @SerializedName("thumbnail_url") override val thumbnailUrl: String,
     @SerializedName("collection") val collection: String,
     @SerializedName("display_sitename") val siteName: String,
     @SerializedName("doc_url") val docUrl: String,

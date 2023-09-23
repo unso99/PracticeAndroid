@@ -10,7 +10,8 @@ import com.practicemvvm.databinding.ItemVideoBinding
 import com.practicemvvm.model.ImageItem
 import com.practicemvvm.model.ListItem
 
-class ListAdapter : ListAdapter<ListItem, RecyclerView.ViewHolder>(diffUtil) {
+class ListAdapter(private val itemHandler: ItemHandler? = null) :
+    ListAdapter<ListItem, RecyclerView.ViewHolder>(diffUtil) {
 
     override fun getItemViewType(position: Int): Int {
         return if (getItem(position) is ImageItem) {
@@ -21,9 +22,9 @@ class ListAdapter : ListAdapter<ListItem, RecyclerView.ViewHolder>(diffUtil) {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         val inflater = LayoutInflater.from(parent.context)
         return if (viewType == IMAGE) {
-            ImageViewHolder(ItemImageBinding.inflate(inflater, parent, false))
+            ImageViewHolder(ItemImageBinding.inflate(inflater, parent, false),itemHandler)
         } else {
-            VideoViewHolder(ItemVideoBinding.inflate(inflater, parent, false))
+            VideoViewHolder(ItemVideoBinding.inflate(inflater, parent, false),itemHandler)
         }
     }
 

@@ -5,7 +5,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.view.View;
 @SuppressWarnings("unchecked")
-public class ItemImageBindingImpl extends ItemImageBinding  {
+public class ItemImageBindingImpl extends ItemImageBinding implements com.practicemvvm.generated.callback.OnClickListener.Listener {
 
     @Nullable
     private static final androidx.databinding.ViewDataBinding.IncludedLayouts sIncludes;
@@ -19,6 +19,8 @@ public class ItemImageBindingImpl extends ItemImageBinding  {
     @NonNull
     private final androidx.constraintlayout.widget.ConstraintLayout mboundView0;
     // variables
+    @Nullable
+    private final android.view.View.OnClickListener mCallback1;
     // values
     // listeners
     // Inverse Binding Event Handlers
@@ -45,13 +47,14 @@ public class ItemImageBindingImpl extends ItemImageBinding  {
         this.urlTextView.setTag(null);
         setRootTag(root);
         // listeners
+        mCallback1 = new com.practicemvvm.generated.callback.OnClickListener(this, 1);
         invalidateAll();
     }
 
     @Override
     public void invalidateAll() {
         synchronized(this) {
-                mDirtyFlags = 0x2L;
+                mDirtyFlags = 0x4L;
         }
         requestRebind();
     }
@@ -69,7 +72,10 @@ public class ItemImageBindingImpl extends ItemImageBinding  {
     @Override
     public boolean setVariable(int variableId, @Nullable Object variable)  {
         boolean variableSet = true;
-        if (BR.item == variableId) {
+        if (BR.handler == variableId) {
+            setHandler((com.practicemvvm.list.ItemHandler) variable);
+        }
+        else if (BR.item == variableId) {
             setItem((com.practicemvvm.model.ImageItem) variable);
         }
         else {
@@ -78,10 +84,18 @@ public class ItemImageBindingImpl extends ItemImageBinding  {
             return variableSet;
     }
 
+    public void setHandler(@Nullable com.practicemvvm.list.ItemHandler Handler) {
+        this.mHandler = Handler;
+        synchronized(this) {
+            mDirtyFlags |= 0x1L;
+        }
+        notifyPropertyChanged(BR.handler);
+        super.requestRebind();
+    }
     public void setItem(@Nullable com.practicemvvm.model.ImageItem Item) {
         this.mItem = Item;
         synchronized(this) {
-            mDirtyFlags |= 0x1L;
+            mDirtyFlags |= 0x2L;
         }
         notifyPropertyChanged(BR.item);
         super.requestRebind();
@@ -102,6 +116,7 @@ public class ItemImageBindingImpl extends ItemImageBinding  {
             mDirtyFlags = 0;
         }
         java.lang.String itemSiteName = null;
+        com.practicemvvm.list.ItemHandler handler = mHandler;
         com.practicemvvm.model.ImageItem item = mItem;
         java.lang.String itemCollection = null;
         boolean itemFavorite = false;
@@ -109,7 +124,7 @@ public class ItemImageBindingImpl extends ItemImageBinding  {
         java.lang.String itemThumbnailUrl = null;
         java.lang.String itemDocUrl = null;
 
-        if ((dirtyFlags & 0x3L) != 0) {
+        if ((dirtyFlags & 0x6L) != 0) {
 
 
 
@@ -129,7 +144,7 @@ public class ItemImageBindingImpl extends ItemImageBinding  {
                 }
         }
         // batch finished
-        if ((dirtyFlags & 0x3L) != 0) {
+        if ((dirtyFlags & 0x6L) != 0) {
             // api target 1
 
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.collectionTextView, itemCollection);
@@ -139,14 +154,39 @@ public class ItemImageBindingImpl extends ItemImageBinding  {
             com.practicemvvm.BindingAdapterKt.setImage(this.thumbnailImageView, itemThumbnailUrl);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.urlTextView, itemDocUrl);
         }
+        if ((dirtyFlags & 0x4L) != 0) {
+            // api target 1
+
+            this.favoriteImageView.setOnClickListener(mCallback1);
+        }
     }
     // Listener Stub Implementations
     // callback impls
+    public final void _internalCallbackOnClick(int sourceId , android.view.View callbackArg_0) {
+        // localize variables for thread safety
+        // handler
+        com.practicemvvm.list.ItemHandler handler = mHandler;
+        // item
+        com.practicemvvm.model.ImageItem item = mItem;
+        // handler != null
+        boolean handlerJavaLangObjectNull = false;
+
+
+
+        handlerJavaLangObjectNull = (handler) != (null);
+        if (handlerJavaLangObjectNull) {
+
+
+
+            handler.onClickFavorite(item);
+        }
+    }
     // dirty flag
     private  long mDirtyFlags = 0xffffffffffffffffL;
     /* flag mapping
-        flag 0 (0x1L): item
-        flag 1 (0x2L): null
+        flag 0 (0x1L): handler
+        flag 1 (0x2L): item
+        flag 2 (0x3L): null
     flag mapping end*/
     //end
 }

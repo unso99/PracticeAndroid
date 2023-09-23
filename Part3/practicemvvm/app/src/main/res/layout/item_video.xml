@@ -7,6 +7,10 @@
         <variable
             name="item"
             type="com.practicemvvm.model.VideoItem" />
+
+        <variable
+            name="handler"
+            type="com.practicemvvm.list.ItemHandler" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -21,8 +25,8 @@
             android:id="@+id/thumbnailImageView"
             android:layout_width="96dp"
             android:layout_height="96dp"
-            app:image="@{item.thumbnailUrl}"
             android:scaleType="centerCrop"
+            app:image="@{item.thumbnailUrl}"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -40,19 +44,19 @@
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/dateTextView"
-            app:date="@{item.dateTime}"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
+            app:date="@{item.dateTime}"
             app:layout_constraintStart_toEndOf="@id/thumbnailImageView"
             app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/titleTextView"
             android:layout_width="wrap_content"
-            android:text="@{item.title}"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
+            android:text="@{item.title}"
             app:layout_constraintStart_toStartOf="@id/dateTextView"
             app:layout_constraintTop_toBottomOf="@id/dateTextView" />
 
@@ -60,25 +64,26 @@
             android:id="@+id/playTimeTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@{item.playTime + `초`}"
             android:layout_marginTop="4dp"
+            android:text="@{item.playTime + `초`}"
             app:layout_constraintStart_toStartOf="@id/dateTextView"
             app:layout_constraintTop_toBottomOf="@id/dateTextView" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/authorTextView"
             android:layout_width="wrap_content"
-            android:text="@{item.author}"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
+            android:text="@{item.author}"
             app:layout_constraintStart_toStartOf="@id/playTimeTextView"
             app:layout_constraintTop_toBottomOf="@id/playTimeTextView" />
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/favoriteImageView"
             android:layout_width="wrap_content"
-            app:favorite="@{item.favorite}"
             android:layout_height="wrap_content"
+            android:onClick="@{()->handler.onClickFavorite(item)}"
+            app:favorite="@{item.favorite}"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
