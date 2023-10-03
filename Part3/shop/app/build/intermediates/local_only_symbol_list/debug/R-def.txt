@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable baseline_search_24
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable icon_sale
+drawable logo_fastcampus
+drawable rectangle_stroke_r5
+id appBarLayout
+id logoImageView
+id recyclerView
+id toolbarLayout
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Shop
+style Theme.Shop
+xml backup_rules
+xml data_extraction_rules
