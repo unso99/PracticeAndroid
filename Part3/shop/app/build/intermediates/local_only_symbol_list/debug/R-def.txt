@@ -13,6 +13,7 @@ id logoImageView
 id recyclerView
 id toolbarLayout
 layout activity_main
+layout item_empty
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

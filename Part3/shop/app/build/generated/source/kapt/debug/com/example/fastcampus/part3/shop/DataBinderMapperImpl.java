@@ -7,6 +7,7 @@ import androidx.databinding.DataBinderMapper;
 import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
 import com.example.fastcampus.part3.shop.databinding.ActivityMainBindingImpl;
+import com.example.fastcampus.part3.shop.databinding.ItemEmptyBindingImpl;
 import java.lang.IllegalArgumentException;
 import java.lang.Integer;
 import java.lang.Object;
@@ -20,10 +21,13 @@ import java.util.List;
 public class DataBinderMapperImpl extends DataBinderMapper {
   private static final int LAYOUT_ACTIVITYMAIN = 1;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(1);
+  private static final int LAYOUT_ITEMEMPTY = 2;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(2);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.fastcampus.part3.shop.R.layout.activity_main, LAYOUT_ACTIVITYMAIN);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.fastcampus.part3.shop.R.layout.item_empty, LAYOUT_ITEMEMPTY);
   }
 
   @Override
@@ -40,6 +44,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new ActivityMainBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for activity_main is invalid. Received: " + tag);
+        }
+        case  LAYOUT_ITEMEMPTY: {
+          if ("layout/item_empty_0".equals(tag)) {
+            return new ItemEmptyBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for item_empty is invalid. Received: " + tag);
         }
       }
     }
@@ -94,10 +104,11 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(1);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(2);
 
     static {
       sKeys.put("layout/activity_main_0", com.example.fastcampus.part3.shop.R.layout.activity_main);
+      sKeys.put("layout/item_empty_0", com.example.fastcampus.part3.shop.R.layout.item_empty);
     }
   }
 }

@@ -4,10 +4,6 @@
         "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.fastcampus.part3.shop.app-main-40:\\mipmap-anydpi\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.fastcampus.part3.shop.app-merged_res-38:/layout_activity_main.xml.flat",
-        "source": "com.example.fastcampus.part3.shop.app-main-40:/layout/activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.fastcampus.part3.shop.app-merged_res-38:\\mipmap-anydpi_ic_launcher.xml.flat",
         "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.fastcampus.part3.shop.app-main-40:\\mipmap-anydpi\\ic_launcher.xml"
     },
@@ -28,12 +24,20 @@
         "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.fastcampus.part3.shop.app-main-40:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
+        "merged": "com.example.fastcampus.part3.shop.app-merged_res-38:/drawable_rectangle_stroke_r5.xml.flat",
+        "source": "com.example.fastcampus.part3.shop.app-main-40:/drawable/rectangle_stroke_r5.xml"
+    },
+    {
         "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.fastcampus.part3.shop.app-merged_res-38:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.fastcampus.part3.shop.app-main-40:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.fastcampus.part3.shop.app-merged_res-38:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.fastcampus.part3.shop.app-main-40:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.fastcampus.part3.shop.app-merged_res-38:/layout_item_empty.xml.flat",
+        "source": "com.example.fastcampus.part3.shop.app-main-40:/layout/item_empty.xml"
     },
     {
         "merged": "C:\\Users\\samsung\\.gradle\\daemon\\8.0\\com.example.fastcampus.part3.shop.app-merged_res-38:\\drawable_ic_launcher_foreground.xml.flat",
