@@ -7,7 +7,14 @@ import androidx.databinding.DataBinderMapper;
 import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
 import com.example.fastcampus.part3.shop.databinding.ActivityMainBindingImpl;
+import com.example.fastcampus.part3.shop.databinding.ItemCouponBindingImpl;
 import com.example.fastcampus.part3.shop.databinding.ItemEmptyBindingImpl;
+import com.example.fastcampus.part3.shop.databinding.ItemFullAdBindingImpl;
+import com.example.fastcampus.part3.shop.databinding.ItemHoriziontalBindingImpl;
+import com.example.fastcampus.part3.shop.databinding.ItemImageBindingImpl;
+import com.example.fastcampus.part3.shop.databinding.ItemSaleBindingImpl;
+import com.example.fastcampus.part3.shop.databinding.ItemSellItemBindingImpl;
+import com.example.fastcampus.part3.shop.databinding.ItemViewpagerBindingImpl;
 import java.lang.IllegalArgumentException;
 import java.lang.Integer;
 import java.lang.Object;
@@ -21,13 +28,34 @@ import java.util.List;
 public class DataBinderMapperImpl extends DataBinderMapper {
   private static final int LAYOUT_ACTIVITYMAIN = 1;
 
-  private static final int LAYOUT_ITEMEMPTY = 2;
+  private static final int LAYOUT_ITEMCOUPON = 2;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(2);
+  private static final int LAYOUT_ITEMEMPTY = 3;
+
+  private static final int LAYOUT_ITEMFULLAD = 4;
+
+  private static final int LAYOUT_ITEMHORIZIONTAL = 5;
+
+  private static final int LAYOUT_ITEMIMAGE = 6;
+
+  private static final int LAYOUT_ITEMSALE = 7;
+
+  private static final int LAYOUT_ITEMSELLITEM = 8;
+
+  private static final int LAYOUT_ITEMVIEWPAGER = 9;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(9);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.fastcampus.part3.shop.R.layout.activity_main, LAYOUT_ACTIVITYMAIN);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.fastcampus.part3.shop.R.layout.item_coupon, LAYOUT_ITEMCOUPON);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.fastcampus.part3.shop.R.layout.item_empty, LAYOUT_ITEMEMPTY);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.fastcampus.part3.shop.R.layout.item_full_ad, LAYOUT_ITEMFULLAD);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.fastcampus.part3.shop.R.layout.item_horiziontal, LAYOUT_ITEMHORIZIONTAL);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.fastcampus.part3.shop.R.layout.item_image, LAYOUT_ITEMIMAGE);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.fastcampus.part3.shop.R.layout.item_sale, LAYOUT_ITEMSALE);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.fastcampus.part3.shop.R.layout.item_sell_item, LAYOUT_ITEMSELLITEM);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.fastcampus.part3.shop.R.layout.item_viewpager, LAYOUT_ITEMVIEWPAGER);
   }
 
   @Override
@@ -45,11 +73,53 @@ public class DataBinderMapperImpl extends DataBinderMapper {
           }
           throw new IllegalArgumentException("The tag for activity_main is invalid. Received: " + tag);
         }
+        case  LAYOUT_ITEMCOUPON: {
+          if ("layout/item_coupon_0".equals(tag)) {
+            return new ItemCouponBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for item_coupon is invalid. Received: " + tag);
+        }
         case  LAYOUT_ITEMEMPTY: {
           if ("layout/item_empty_0".equals(tag)) {
             return new ItemEmptyBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for item_empty is invalid. Received: " + tag);
+        }
+        case  LAYOUT_ITEMFULLAD: {
+          if ("layout/item_full_ad_0".equals(tag)) {
+            return new ItemFullAdBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for item_full_ad is invalid. Received: " + tag);
+        }
+        case  LAYOUT_ITEMHORIZIONTAL: {
+          if ("layout/item_horiziontal_0".equals(tag)) {
+            return new ItemHoriziontalBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for item_horiziontal is invalid. Received: " + tag);
+        }
+        case  LAYOUT_ITEMIMAGE: {
+          if ("layout/item_image_0".equals(tag)) {
+            return new ItemImageBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for item_image is invalid. Received: " + tag);
+        }
+        case  LAYOUT_ITEMSALE: {
+          if ("layout/item_sale_0".equals(tag)) {
+            return new ItemSaleBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for item_sale is invalid. Received: " + tag);
+        }
+        case  LAYOUT_ITEMSELLITEM: {
+          if ("layout/item_sell_item_0".equals(tag)) {
+            return new ItemSellItemBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for item_sell_item is invalid. Received: " + tag);
+        }
+        case  LAYOUT_ITEMVIEWPAGER: {
+          if ("layout/item_viewpager_0".equals(tag)) {
+            return new ItemViewpagerBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for item_viewpager is invalid. Received: " + tag);
         }
       }
     }
@@ -96,19 +166,27 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerBrLookup {
-    static final SparseArray<String> sKeys = new SparseArray<String>(1);
+    static final SparseArray<String> sKeys = new SparseArray<String>(2);
 
     static {
       sKeys.put(0, "_all");
+      sKeys.put(1, "item");
     }
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(2);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(9);
 
     static {
       sKeys.put("layout/activity_main_0", com.example.fastcampus.part3.shop.R.layout.activity_main);
+      sKeys.put("layout/item_coupon_0", com.example.fastcampus.part3.shop.R.layout.item_coupon);
       sKeys.put("layout/item_empty_0", com.example.fastcampus.part3.shop.R.layout.item_empty);
+      sKeys.put("layout/item_full_ad_0", com.example.fastcampus.part3.shop.R.layout.item_full_ad);
+      sKeys.put("layout/item_horiziontal_0", com.example.fastcampus.part3.shop.R.layout.item_horiziontal);
+      sKeys.put("layout/item_image_0", com.example.fastcampus.part3.shop.R.layout.item_image);
+      sKeys.put("layout/item_sale_0", com.example.fastcampus.part3.shop.R.layout.item_sale);
+      sKeys.put("layout/item_sell_item_0", com.example.fastcampus.part3.shop.R.layout.item_sell_item);
+      sKeys.put("layout/item_viewpager_0", com.example.fastcampus.part3.shop.R.layout.item_viewpager);
     }
   }
 }

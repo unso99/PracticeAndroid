@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.fastcampus.part3.shop.app-mergeDebugResources-36:/values-w480dp-port-v13/values-w480dp-port-v13.xml",
+            "outputFile": "com.example.fastcampus.part3.shop.app-mergeDebugResources-40:/values-w480dp-port-v13/values-w480dp-port-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\samsung\\.gradle\\caches\\transforms-3\\ea4a2a3aa1914a859c1bfabde32cf829\\transformed\\material-1.9.0\\res\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",

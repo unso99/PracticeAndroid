@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.fastcampus.part3.shop.app-mergeDebugResources-36:/values-kk/values-kk.xml",
+            "outputFile": "com.example.fastcampus.part3.shop.app-mergeDebugResources-40:/values-kk/values-kk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\samsung\\.gradle\\caches\\transforms-3\\a12fbbdb608d5ad4e0636c8177bf8862\\transformed\\core-1.9.0\\res\\values-kk\\values-kk.xml",

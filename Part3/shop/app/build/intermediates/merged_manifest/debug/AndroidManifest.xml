@@ -8,6 +8,8 @@
         android:minSdkVersion="30"
         android:targetSdkVersion="33" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <permission
         android:name="com.example.fastcampus.part3.shop.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
@@ -27,7 +29,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.Shop" >
+        android:theme="@style/Theme.Shop"
+        android:usesCleartextTraffic="true" >
         <activity
             android:name="com.example.fastcampus.part3.shop.MainActivity"
             android:exported="true" >

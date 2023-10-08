@@ -2915,6 +2915,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_100tb
 drawable ic_arrow_back_black_24
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
@@ -3002,6 +3003,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable rectangle_blue_r10
 drawable rectangle_stroke_r5
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -3094,6 +3096,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id badgeTextView
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -3127,6 +3130,7 @@ id clip_horizontal
 id clip_vertical
 id clockwise
 id closest
+id coil_request_manager
 id collapseActionView
 id compress
 id confirm_button
@@ -3139,6 +3143,7 @@ id continuousVelocity
 id coordinator
 id cos
 id counterclockwise
+id couponTextView
 id cradle
 id currentState
 id custom
@@ -3226,6 +3231,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id immediateStop
 id included
 id indeterminate
@@ -3245,6 +3251,7 @@ id line1
 id line3
 id linear
 id listMode
+id listView
 id list_item
 id logoImageView
 id m3_side_sheet
@@ -3307,6 +3314,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id nameTextView
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3348,9 +3356,11 @@ id pin
 id position
 id postLayout
 id pressed
+id priceTextView
 id progress_circular
 id progress_horizontal
 id radio
+id ratingBar
 id ratio
 id rectangles
 id recyclerView
@@ -3362,6 +3372,8 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id saleIconImageView
+id saleTextView
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3471,6 +3483,7 @@ id textinput_suffix_text
 id time
 id title
 id titleDividerNoCustom
+id titleTextView
 id title_template
 id toggle
 id toolbarLayout
@@ -3491,6 +3504,7 @@ id unlabeled
 id up
 id useLogo
 id vertical_only
+id viewPager
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -3638,7 +3652,14 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout item_coupon
 layout item_empty
+layout item_full_ad
+layout item_horiziontal
+layout item_image
+layout item_sale
+layout item_sell_item
+layout item_viewpager
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -4181,6 +4202,7 @@ style Platform_V21_AppCompat_Light
 style Platform_V25_AppCompat
 style Platform_V25_AppCompat_Light
 style Platform_Widget_AppCompat_Spinner
+style RatingBar
 style RtlOverlay_DialogWindowTitle_AppCompat
 style RtlOverlay_Widget_AppCompat_ActionBar_TitleItem
 style RtlOverlay_Widget_AppCompat_DialogTitle_Icon
