@@ -6,6 +6,16 @@ import android.view.View;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.SavedStateHandle;
 import androidx.lifecycle.ViewModel;
+import com.example.fastcampus.part3.shop.di.MainRepositoryModule;
+import com.example.fastcampus.part3.shop.di.MainRepositoryModule_ProvidesMainRepositoryFactory;
+import com.example.fastcampus.part3.shop.di.MainServiceModule;
+import com.example.fastcampus.part3.shop.di.MainServiceModule_ProvidesMainServiceFactory;
+import com.example.fastcampus.part3.shop.di.RetrofitModule;
+import com.example.fastcampus.part3.shop.di.RetrofitModule_ProvidesConverterFactoryFactory;
+import com.example.fastcampus.part3.shop.di.RetrofitModule_ProvidesOkHttpClientFactory;
+import com.example.fastcampus.part3.shop.di.RetrofitModule_ProvidesRetrofitFactory;
+import com.example.fastcampus.part3.shop.remote.MainService;
+import com.example.fastcampus.part3.shop.remote.repository.MainRepository;
 import dagger.hilt.android.ActivityRetainedLifecycle;
 import dagger.hilt.android.ViewModelLifecycle;
 import dagger.hilt.android.flags.HiltWrapper_FragmentGetContextFix_FragmentGetContextFixModule;
@@ -28,6 +38,8 @@ import java.util.Map;
 import java.util.Set;
 import javax.annotation.processing.Generated;
 import javax.inject.Provider;
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
 
 @DaggerGenerated
 @Generated(
@@ -70,6 +82,24 @@ public final class DaggerHiltApplication_HiltComponents_SingletonC {
     public Builder hiltWrapper_FragmentGetContextFix_FragmentGetContextFixModule(
         HiltWrapper_FragmentGetContextFix_FragmentGetContextFixModule hiltWrapper_FragmentGetContextFix_FragmentGetContextFixModule) {
       Preconditions.checkNotNull(hiltWrapper_FragmentGetContextFix_FragmentGetContextFixModule);
+      return this;
+    }
+
+    /**
+     * @deprecated This module is declared, but an instance is not used in the component. This method is a no-op. For more, see https://dagger.dev/unused-modules.
+     */
+    @Deprecated
+    public Builder mainServiceModule(MainServiceModule mainServiceModule) {
+      Preconditions.checkNotNull(mainServiceModule);
+      return this;
+    }
+
+    /**
+     * @deprecated This module is declared, but an instance is not used in the component. This method is a no-op. For more, see https://dagger.dev/unused-modules.
+     */
+    @Deprecated
+    public Builder retrofitModule(RetrofitModule retrofitModule) {
+      Preconditions.checkNotNull(retrofitModule);
       return this;
     }
 
@@ -239,7 +269,7 @@ public final class DaggerHiltApplication_HiltComponents_SingletonC {
     public HiltApplication_HiltComponents.ViewModelC build() {
       Preconditions.checkBuilderRequirement(savedStateHandle, SavedStateHandle.class);
       Preconditions.checkBuilderRequirement(viewModelLifecycle, ViewModelLifecycle.class);
-      return new ViewModelCImpl(singletonCImpl, activityRetainedCImpl, savedStateHandle, viewModelLifecycle);
+      return new ViewModelCImpl(singletonCImpl, activityRetainedCImpl, new MainRepositoryModule(), savedStateHandle, viewModelLifecycle);
     }
   }
 
@@ -358,12 +388,12 @@ public final class DaggerHiltApplication_HiltComponents_SingletonC {
 
     @Override
     public DefaultViewModelFactories.InternalFactoryFactory getHiltInternalFactoryFactory() {
-      return DefaultViewModelFactories_InternalFactoryFactory_Factory.newInstance(Collections.<String>emptySet(), new ViewModelCBuilder(singletonCImpl, activityRetainedCImpl));
+      return DefaultViewModelFactories_InternalFactoryFactory_Factory.newInstance(getViewModelKeys(), new ViewModelCBuilder(singletonCImpl, activityRetainedCImpl));
     }
 
     @Override
     public Set<String> getViewModelKeys() {
-      return Collections.<String>emptySet();
+      return Collections.<String>singleton(MainViewModel_HiltModules_KeyModule_ProvideFactory.provide());
     }
 
     @Override
@@ -383,24 +413,71 @@ public final class DaggerHiltApplication_HiltComponents_SingletonC {
   }
 
   private static final class ViewModelCImpl extends HiltApplication_HiltComponents.ViewModelC {
+    private final MainRepositoryModule mainRepositoryModule;
+
     private final SingletonCImpl singletonCImpl;
 
     private final ActivityRetainedCImpl activityRetainedCImpl;
 
     private final ViewModelCImpl viewModelCImpl = this;
 
+    private Provider<MainRepository> providesMainRepositoryProvider;
+
+    private Provider<MainViewModel> mainViewModelProvider;
+
     private ViewModelCImpl(SingletonCImpl singletonCImpl,
-        ActivityRetainedCImpl activityRetainedCImpl, SavedStateHandle savedStateHandleParam,
-        ViewModelLifecycle viewModelLifecycleParam) {
+        ActivityRetainedCImpl activityRetainedCImpl, MainRepositoryModule mainRepositoryModuleParam,
+        SavedStateHandle savedStateHandleParam, ViewModelLifecycle viewModelLifecycleParam) {
       this.singletonCImpl = singletonCImpl;
       this.activityRetainedCImpl = activityRetainedCImpl;
+      this.mainRepositoryModule = mainRepositoryModuleParam;
+      initialize(mainRepositoryModuleParam, savedStateHandleParam, viewModelLifecycleParam);
 
+    }
 
+    @SuppressWarnings("unchecked")
+    private void initialize(final MainRepositoryModule mainRepositoryModuleParam,
+        final SavedStateHandle savedStateHandleParam,
+        final ViewModelLifecycle viewModelLifecycleParam) {
+      this.providesMainRepositoryProvider = DoubleCheck.provider(new SwitchingProvider<MainRepository>(singletonCImpl, activityRetainedCImpl, viewModelCImpl, 1));
+      this.mainViewModelProvider = new SwitchingProvider<>(singletonCImpl, activityRetainedCImpl, viewModelCImpl, 0);
     }
 
     @Override
     public Map<String, Provider<ViewModel>> getHiltViewModelMap() {
-      return Collections.<String, Provider<ViewModel>>emptyMap();
+      return Collections.<String, Provider<ViewModel>>singletonMap("com.example.fastcampus.part3.shop.MainViewModel", ((Provider) mainViewModelProvider));
+    }
+
+    private static final class SwitchingProvider<T> implements Provider<T> {
+      private final SingletonCImpl singletonCImpl;
+
+      private final ActivityRetainedCImpl activityRetainedCImpl;
+
+      private final ViewModelCImpl viewModelCImpl;
+
+      private final int id;
+
+      SwitchingProvider(SingletonCImpl singletonCImpl, ActivityRetainedCImpl activityRetainedCImpl,
+          ViewModelCImpl viewModelCImpl, int id) {
+        this.singletonCImpl = singletonCImpl;
+        this.activityRetainedCImpl = activityRetainedCImpl;
+        this.viewModelCImpl = viewModelCImpl;
+        this.id = id;
+      }
+
+      @SuppressWarnings("unchecked")
+      @Override
+      public T get() {
+        switch (id) {
+          case 0: // com.example.fastcampus.part3.shop.MainViewModel 
+          return (T) new MainViewModel(viewModelCImpl.providesMainRepositoryProvider.get());
+
+          case 1: // com.example.fastcampus.part3.shop.remote.repository.MainRepository 
+          return (T) MainRepositoryModule_ProvidesMainRepositoryFactory.providesMainRepository(viewModelCImpl.mainRepositoryModule, singletonCImpl.providesMainServiceProvider.get());
+
+          default: throw new AssertionError(id);
+        }
+      }
     }
   }
 
@@ -475,9 +552,26 @@ public final class DaggerHiltApplication_HiltComponents_SingletonC {
   private static final class SingletonCImpl extends HiltApplication_HiltComponents.SingletonC {
     private final SingletonCImpl singletonCImpl = this;
 
+    private Provider<okhttp3.OkHttpClient.Builder> providesOkHttpClientProvider;
+
+    private Provider<GsonConverterFactory> providesConverterFactoryProvider;
+
+    private Provider<Retrofit> providesRetrofitProvider;
+
+    private Provider<MainService> providesMainServiceProvider;
+
     private SingletonCImpl() {
 
+      initialize();
 
+    }
+
+    @SuppressWarnings("unchecked")
+    private void initialize() {
+      this.providesOkHttpClientProvider = DoubleCheck.provider(new SwitchingProvider<okhttp3.OkHttpClient.Builder>(singletonCImpl, 2));
+      this.providesConverterFactoryProvider = DoubleCheck.provider(new SwitchingProvider<GsonConverterFactory>(singletonCImpl, 3));
+      this.providesRetrofitProvider = DoubleCheck.provider(new SwitchingProvider<Retrofit>(singletonCImpl, 1));
+      this.providesMainServiceProvider = DoubleCheck.provider(new SwitchingProvider<MainService>(singletonCImpl, 0));
     }
 
     @Override
@@ -497,6 +591,37 @@ public final class DaggerHiltApplication_HiltComponents_SingletonC {
     @Override
     public ServiceComponentBuilder serviceComponentBuilder() {
       return new ServiceCBuilder(singletonCImpl);
+    }
+
+    private static final class SwitchingProvider<T> implements Provider<T> {
+      private final SingletonCImpl singletonCImpl;
+
+      private final int id;
+
+      SwitchingProvider(SingletonCImpl singletonCImpl, int id) {
+        this.singletonCImpl = singletonCImpl;
+        this.id = id;
+      }
+
+      @SuppressWarnings("unchecked")
+      @Override
+      public T get() {
+        switch (id) {
+          case 0: // com.example.fastcampus.part3.shop.remote.MainService 
+          return (T) MainServiceModule_ProvidesMainServiceFactory.providesMainService(singletonCImpl.providesRetrofitProvider.get());
+
+          case 1: // retrofit2.Retrofit 
+          return (T) RetrofitModule_ProvidesRetrofitFactory.providesRetrofit(singletonCImpl.providesOkHttpClientProvider.get(), singletonCImpl.providesConverterFactoryProvider.get());
+
+          case 2: // okhttp3.OkHttpClient.Builder 
+          return (T) RetrofitModule_ProvidesOkHttpClientFactory.providesOkHttpClient();
+
+          case 3: // retrofit2.converter.gson.GsonConverterFactory 
+          return (T) RetrofitModule_ProvidesConverterFactoryFactory.providesConverterFactory();
+
+          default: throw new AssertionError(id);
+        }
+      }
     }
   }
 }

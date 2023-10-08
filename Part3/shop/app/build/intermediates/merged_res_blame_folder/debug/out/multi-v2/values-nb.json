@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.fastcampus.part3.shop.app-mergeDebugResources-36:/values-nb/values-nb.xml",
+            "outputFile": "com.example.fastcampus.part3.shop.app-mergeDebugResources-40:/values-nb/values-nb.xml",
             "map": [
                 {
                     "source": "C:\\Users\\samsung\\.gradle\\caches\\transforms-3\\7311d3a3b7ba2234399be1d233964e6f\\transformed\\appcompat-1.6.1\\res\\values-nb\\values-nb.xml",

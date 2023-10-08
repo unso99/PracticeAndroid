@@ -1,5 +1,8 @@
 package com.example.fastcampus.part3.shop;
 
+import com.example.fastcampus.part3.shop.di.MainRepositoryModule;
+import com.example.fastcampus.part3.shop.di.MainServiceModule;
+import com.example.fastcampus.part3.shop.di.RetrofitModule;
 import dagger.Binds;
 import dagger.Component;
 import dagger.Module;
@@ -126,7 +129,9 @@ public final class HiltApplication_HiltComponents {
           ApplicationContextModule.class,
           ActivityRetainedCBuilderModule.class,
           ServiceCBuilderModule.class,
-          HiltWrapper_FragmentGetContextFix_FragmentGetContextFixModule.class
+          HiltWrapper_FragmentGetContextFix_FragmentGetContextFixModule.class,
+          MainServiceModule.class,
+          RetrofitModule.class
       }
   )
   @Singleton
@@ -151,7 +156,8 @@ public final class HiltApplication_HiltComponents {
       modules = {
           ActivityCBuilderModule.class,
           ViewModelCBuilderModule.class,
-          HiltWrapper_ActivityRetainedComponentManager_LifecycleModule.class
+          HiltWrapper_ActivityRetainedComponentManager_LifecycleModule.class,
+          MainViewModel_HiltModules.KeyModule.class
       }
   )
   @ActivityRetainedScoped
@@ -186,7 +192,11 @@ public final class HiltApplication_HiltComponents {
   }
 
   @Subcomponent(
-      modules = HiltWrapper_HiltViewModelFactory_ViewModelModule.class
+      modules = {
+          HiltWrapper_HiltViewModelFactory_ViewModelModule.class,
+          MainRepositoryModule.class,
+          MainViewModel_HiltModules.BindsModule.class
+      }
   )
   @ViewModelScoped
   public abstract static class ViewModelC implements ViewModelComponent,
